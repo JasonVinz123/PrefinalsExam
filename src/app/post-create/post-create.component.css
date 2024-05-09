@@ -1,0 +1,55 @@
+/* Shoe Table Container */
+.shoe-table-container {
+    width: 100%;
+    max-width: 1200px; /* Adjust based on your preference */
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(245, 245, 245); /* Light grey background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+/* Shoe Table */
+.shoe-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Shoe Table Header */
+.shoe-table th {
+    background-color: rgb(67, 133, 245); /* Blue */
+    color: rgb(255, 255, 255); /* White */
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Shoe Table Row */
+.shoe-table tr {
+    border-bottom: 1px solid rgb(229, 229, 229); /* Light grey */
+}
+
+/* Shoe Table Data */
+.shoe-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Shoe Image */
+.shoe-table img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover; /* Ensures the image covers the area without distorting its aspect ratio */
+}
+
+/* Shoe Name */
+.shoe-table.shoe-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(64, 255, 0); /* Dark grey */
+}
+
+/* Shoe Description */
+.shoe-table.shoe-description {
+    font-size: 14px;
+    color: rgb(250, 4, 4); /* Grey */
+}
